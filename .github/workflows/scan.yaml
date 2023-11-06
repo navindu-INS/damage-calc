@@ -18,9 +18,5 @@ jobs:
         uses: oss-review-toolkit/ort-ci-github-action@v1
         with:
           report-formats: |
-            CycloneDx
-            EvaluatedModel
-            GitLabLicenseModel
-            NoticeTemplate
             StaticHtml
             WebApp
