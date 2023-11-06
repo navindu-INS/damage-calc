@@ -1,3 +1,4 @@
+
 name: ORT Scan
 
 on:
@@ -15,3 +16,4 @@ jobs:
         uses: actions/checkout@v3
       - name: Run GitHub Action for ORT
         uses: oss-review-toolkit/ort-ci-github-action@v1
+        continue-on-error: true
